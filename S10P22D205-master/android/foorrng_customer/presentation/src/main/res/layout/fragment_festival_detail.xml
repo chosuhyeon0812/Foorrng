@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".festival.FestivalDetailFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Foorrng.TEXT.EB.14"
+                android:textColor="@color/foorrng_orange_dark"
+                android:text="@string/organizer"
+                android:layout_marginVertical="4dp"/>
+
+
+
+            <TextView
+                android:id="@+id/tv_organizer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Foorrng.TEXT.SB.16"
+                tools:text="푸릉푸릉 푸르릉" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="@style/Foorrng.TEXT.EB.14"
+                android:textColor="@color/foorrng_orange_dark"
+                android:text="@string/date"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Foorrng.TEXT.SB.16"
+                tools:text="xxxx.xx.xx ~ xxxx.xx.xx" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="@style/Foorrng.TEXT.EB.14"
+                android:textColor="@color/foorrng_orange_dark"
+                android:text="@string/organizer_call"
+                android:layout_marginTop="8dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/Foorrng.TEXT.SB.16"
+                    android:text="@string/call_number"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/Foorrng.TEXT.SB.16"
+                    android:text="@string/colon"
+                    android:layout_marginHorizontal="4dp"/>
+
+                <TextView
+                    android:id="@+id/tv_phone_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/Foorrng.TEXT.SB.16"
+                    tools:text="010-1234-1234"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/Foorrng.TEXT.SB.16"
+                    android:text="@string/email"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/Foorrng.TEXT.SB.16"
+                    android:text="@string/colon"
+                    android:layout_marginHorizontal="4dp"/>
+
+                <TextView
+                    android:id="@+id/tv_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/Foorrng.TEXT.SB.16"
+                    tools:text="aaa@aaaa.com"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/Foorrng.TEXT.SB.16"
+                    android:text="@string/kakao_talk"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/Foorrng.TEXT.SB.16"
+                    android:text="@string/colon"
+                    android:layout_marginHorizontal="4dp"/>
+
+                <TextView
+                    android:id="@+id/tv_kakao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/Foorrng.TEXT.SB.16"
+                    tools:text="aaa@aaaa.com"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="@style/Foorrng.TEXT.EB.14"
+                android:textColor="@color/foorrng_orange_dark"
+                android:text="@string/festival_info"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/tv_festival_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="@style/Foorrng.TEXT.EB.14"
+                android:textColor="@color/foorrng_orange_dark"
+                android:text="@string/festival_img"
+                android:layout_marginTop="8dp"/>
+
+            <ImageView
+                android:id="@+id/iv_festival_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="@style/Foorrng.TEXT.EB.14"
+                android:textColor="@color/foorrng_orange_dark"
+                android:text="@string/location"
+                android:layout_marginTop="8dp"/>
+
+            <com.naver.maps.map.MapView
+                android:id="@+id/mv_map"
+                android:layout_marginTop="4dp"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

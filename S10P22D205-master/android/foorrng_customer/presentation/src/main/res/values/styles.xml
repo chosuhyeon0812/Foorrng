@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Foorrng.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/foorrng_orange</item>
+    </style>
+
+    <style name="Base.Foorrng.ToggleButton" parent="Theme.Foorrng">
+        <item name="android:minHeight">40dp</item>
+        <item name="android:minWidth">40dp</item>
+        <item name="android:background">@drawable/bg_weekday_selector</item>
+    </style>
+
+    <style name="Foorrng.TimePicker" parent="Theme.Foorrng">
+        <item name="android:textSize">48sp</item>
+        <item name="colorControlNormal">#00000000</item>
+    </style>
+
+</resources>

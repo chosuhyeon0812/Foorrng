@@ -1,0 +1,115 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Foorrng" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/foorrng_orange</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:colorBackground">@color/white</item>
+    </style>
+
+    <style name="Theme.Foorrng" parent="Base.Theme.Foorrng">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- 텍스트 스타일 -->
+    <!-- Base -->
+    <style name="Foorrng.TEXT.M.16" parent="Theme.Foorrng">
+        <item name="android:fontFamily">@font/font_suite_medium</item>
+    </style>
+
+    <style name="Foorrng.TEXT.SB.16" parent="Theme.Foorrng">
+        <item name="android:fontFamily">@font/font_suite_semibold</item>
+    </style>
+
+    <style name="Foorrng.TEXT.B.16" parent="Theme.Foorrng">
+        <item name="android:fontFamily">@font/font_suite_bold</item>
+    </style>
+
+    <style name="Foorrng.TEXT.EB.16" parent="Theme.Foorrng">
+        <item name="android:fontFamily">@font/font_suite_extrabold</item>
+    </style>
+
+    <style name="Foorrng.TEXT.H.16" parent="Theme.Foorrng">
+        <item name="android:fontFamily">@font/font_suite_heavy</item>
+    </style>
+
+    <!-- Detail -->
+    <style name="Foorrng.TEXT.SB.12" parent="Foorrng.TEXT.SB.16">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Foorrng.TEXT.SB.14" parent="Foorrng.TEXT.SB.16">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Foorrng.TEXT.EB.14" parent="Foorrng.TEXT.EB.16">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Foorrng.TEXT.SB.18" parent="Foorrng.TEXT.SB.16">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Foorrng.TEXT.SB.20" parent="Foorrng.TEXT.SB.16">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Foorrng.TEXT.B.20" parent="Foorrng.TEXT.B.16">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Foorrng.TEXT.M.22" parent="Foorrng.TEXT.M.16">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="Foorrng.TEXT.B.22" parent="Foorrng.TEXT.B.16">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="Foorrng.TEXT.SB.22" parent="Foorrng.TEXT.SB.16">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="Foorrng.TEXT.EB.22" parent="Foorrng.TEXT.EB.16">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="Foorrng.TEXT.SB.24" parent="Foorrng.TEXT.SB.16">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+
+    <!-- View Style -->
+    <style name="Foorrng.TextInputLayout" parent="Theme.Foorrng">
+        <item name="android:textAppearance">@style/Foorrng.TEXT.B.16</item>
+        <item name="hintTextAppearance">@style/Foorrng.TEXT.B.16</item>
+        <item name="boxStrokeColor">@color/foorrng_orange</item>
+    </style>
+
+    <style name="Foorrng.Button" parent="Theme.Foorrng">
+        <item name="android:textAppearance">@style/Foorrng.TEXT.B.16</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/btn_default_orange</item>
+    </style>
+
+    <style name="Foorrng.Chip.Category" parent="Widget.MaterialComponents.Chip.Filter">
+        <item name="checkedIconVisible">false</item>
+        <item name="chipStrokeColor">@color/foorrng_orange</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipBackgroundColor">@color/color_bg_catagory_chip</item>
+        <item name="android:textColor">@color/color_text_category_chip</item>
+    </style>
+
+    <style name="Base.Foorrng.ToggleButton" parent="Theme.Foorrng">
+        <item name="android:minHeight">40dp</item>
+        <item name="android:minWidth">40dp</item>
+        <item name="android:background">@drawable/bg_weekday_selector</item>
+    </style>
+
+    <style name="Foorrng.TimePicker" parent="Theme.Foorrng">
+        <item name="android:textSize">48sp</item>
+        <item name="colorControlNormal">#00000000</item>
+    </style>
+
+</resources>

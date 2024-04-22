@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">푸르릉 점주</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="all_title">푸르릉</string>
+    <string name="all_busi_number">사업자번호</string>
+    <string name="all_foodtruck_name">푸드트럭 이름</string>
+    <string name="all_car_number">차량번호</string>
+    <string name="all_account_number">계좌번호</string>
+    <string name="all_call_number">전화번호</string>
+    <string name="all_notice">공지사항</string>
+    <string name="all_food_category">음식분류</string>
+    <string name="all_modify">수정</string>
+    <string name="all_sunday_one">일</string>
+    <string name="all_monday_one">월</string>
+    <string name="all_tuesday_one">화</string>
+    <string name="all_wednesday_one">수</string>
+    <string name="all_thursday_one">목</string>
+    <string name="all_friday_one">금</string>
+    <string name="all_saturday_one">토</string>
+
+    <string name="busi_number_guide">점주님께서는 앱을 이용하기전\n사업자 번호를 인증해주셔야 합니다.</string>
+    <string name="busi_number_submit">인증하기</string>
+
+    <string name="regist_foodtruck_title">푸드트럭 등록</string>
+    <string name="regist_foodtruck_menu_category">메뉴 카테고리</string>
+
+    <string name="info_foodtruck_title">나의 푸드트럭</string>
+    <string name="info_menu_manage">메뉴관리</string>
+
+    <string name="home_recommend_location">영업 위치 추천 받기</string>
+    <string name="home_manage_location">영업 위치 관리</string>
+    <string name="home_manage_menu">메뉴 관리</string>
+    <string name="home_foodtruck_open">영업 시작하기</string>
+
+    <string name="foodtruck_menu_title">메뉴</string>
+    <string name="foodtruck_menu_add_menu">메뉴 추가</string>
+    <string name="foodtruck_menu_modify_menu">메뉴 수정</string>
+    <string name="foodtruck_menu_name">메뉴 이름</string>
+    <string name="foodtruck_menu_price">가격</string>
+    <string name="foodtruck_menu_change_image">사진 변경</string>
+    <string name="foodtruck_menu_save">저장하기</string>
+
+    <string name="location_manage_title">영업 위치 관리</string>
+    <string name="location_manage_nav">길찾기</string>
+    <string name="location_manage_nav_naver">네이버</string>
+    <string name="location_manage_nav_tmap">길찾기</string>
+
+    <string name="location_recommend_title">영업 위치 추천</string>
+    <string name="location_recommend_add">위치 등록</string>
+
+    <string name="article_title_guide">고객들이 직접 등록한\n행사 정보를 조회합니다.</string>
+    <string name="article_title_organizer">주최측</string>
+    <string name="article_title_date">날짜</string>
+    <string name="article_title_location">위치</string>
+    <string name="article_title_detail">행사내용</string>
+    <string name="article_title_contract">주최측 연락처</string>
+
+</resources>

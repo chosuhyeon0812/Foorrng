@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">푸르릉</string>
+    <string name="favorite_title">내가 바로 맛잘알</string>
+    <string name="favorite_description">음식 선택으로 맞춤 서비스를 이용할 수 있습니다</string>
+    <string name="report_warning">해당 정보는 제보에 의해 작성되어 실제와는 다를 수 있습니다</string>
+    <string name="btn_confirm">확인</string>
+    <string name="cancel">취소</string>
+    <string name="btn_register">등록</string>
+    <string name="update">수정</string>
+    <string name="update_picture">사진 수정</string>
+    <string name="register_foodtruck">푸드트럭 등록</string>
+    <string name="update_foodtruck">푸드트럭 수정</string>
+    <string name="btn_pathfinder">길찾기</string>
+    <string name="today_favorite">오늘 먹고 싶은 음식</string>
+    <string name="my_favorite_truck">내가 찜한 푸드트럭</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_favorite_info">나의 선호 정보</string>
+    <string name="basic_info">기본 정보</string>
+    <string name="managing_info">운영 정보</string>
+    <string name="foodtruck_name">*푸드트럭 이름</string>
+    <string name="review">리뷰</string>
+    <string name="menu">메뉴</string>
+    <string name="menu_name">메뉴 이름</string>
+    <string name="register_menu">메뉴 등록</string>
+    <string name="update_menu">메뉴 수정</string>
+    <string name="price">가격</string>
+    <string name="save">저장</string>
+    <string name="car_number_asterisk">*차량 번호</string>
+    <string name="car_number">차량 번호</string>
+    <string name="food_category">음식 품목</string>
+    <string name="call_number">전화 번호</string>
+    <string name="call_number_asterisk">*전화 번호</string>
+    <string name="account_number">계좌 번호</string>
+    <string name="notice">공지 사항</string>
+    <string name="busi_number">사업자 번호</string>
+    <string name="more_menu">메뉴 더 보기</string>
+    <string name="add_menu">메뉴 추가</string>
+    <string name="write_review">리뷰 작성하기</string>
+
+    <string name="register_festival">행사 정보 입력</string>
+    <string name="update_festival">행사 정보 수정</string>
+    <string name="festival_name">*행사 명</string>
+    <string name="organizer">*주최 측</string>
+    <string name="organizer_call">*주최 측 연락처</string>
+    <string name="date">날짜</string>
+    <string name="date_asterisk">*날짜</string>
+    <string name="email">이메일</string>
+    <string name="kakao_talk">카카오톡 아이디</string>
+    <string name="festival_info">행사 정보</string>
+    <string name="festival_info_asterisk">*행사 정보</string>
+    <string name="festival_img">행사 이미지</string>
+    <string name="image_register">이미지 등록</string>
+    <string name="location">위치</string>
+    <string name="location_asterisk">*위치</string>
+    <string name="select_location">위치 지정</string>
+    <string name="colon">:</string>
+    <string name="my_article">내가 작성한 글</string>
+    <string name="naver">네이버</string>
+
+    <string name="all_sunday_one">일</string>
+    <string name="all_monday_one">월</string>
+    <string name="all_tuesday_one">화</string>
+    <string name="all_wednesday_one">수</string>
+    <string name="all_thursday_one">목</string>
+    <string name="all_friday_one">금</string>
+    <string name="all_saturday_one">토</string>
+
+
+</resources>

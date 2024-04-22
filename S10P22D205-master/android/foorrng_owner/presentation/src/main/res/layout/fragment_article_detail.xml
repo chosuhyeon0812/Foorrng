@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            tools:context=".article.ArticleDetailFragment">
+
+            <TextView
+                android:id="@+id/view_article_organizer"
+                style="@style/Foorrng.TEXT.EB.16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/article_title_organizer"
+                android:textColor="@color/foorrng_orange_dark"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_article_organizer"
+                style="@style/Foorrng.TEXT.SB.16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/view_article_organizer"
+                tools:text="맛있는 녀석들" />
+
+            <TextView
+                android:id="@+id/view_article_date"
+                style="@style/Foorrng.TEXT.EB.16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/article_title_date"
+                android:textColor="@color/foorrng_orange_dark"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_article_organizer" />
+
+            <TextView
+                android:id="@+id/tv_article_date"
+                style="@style/Foorrng.TEXT.SB.16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/view_article_date"
+                tools:text="2024.03.24 ~ 2024.04.01" />
+
+            <TextView
+                android:id="@+id/view_article_contract"
+                style="@style/Foorrng.TEXT.EB.16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/article_title_contract"
+                android:textColor="@color/foorrng_orange_dark"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_article_date" />
+
+            <LinearLayout
+                android:id="@+id/layout_views"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/view_article_contract">
+
+                <TextView
+                    style="@style/Foorrng.TEXT.SB.16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="전화번호" />
+
+                <TextView
+                    style="@style/Foorrng.TEXT.SB.16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="이메일" />
+
+                <TextView
+                    style="@style/Foorrng.TEXT.SB.16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="카카오톡" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_colons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingHorizontal="4dp"
+                app:layout_constraintStart_toEndOf="@id/layout_views"
+                app:layout_constraintTop_toBottomOf="@id/view_article_contract">
+
+                <TextView
+                    style="@style/Foorrng.TEXT.SB.16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":" />
+
+                <TextView
+                    style="@style/Foorrng.TEXT.SB.16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":" />
+
+                <TextView
+                    style="@style/Foorrng.TEXT.SB.16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_tvs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintStart_toEndOf="@id/layout_colons"
+                app:layout_constraintTop_toBottomOf="@id/view_article_contract">
+
+                <TextView
+                    android:id="@+id/tv_article_call_number"
+                    style="@style/Foorrng.TEXT.SB.16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="010-1234-1234" />
+
+                <TextView
+                    android:id="@+id/tv_article_email"
+                    style="@style/Foorrng.TEXT.SB.16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="cjfwn96@ssafy.com" />
+
+                <TextView
+                    android:id="@+id/tv_article_kakao"
+                    style="@style/Foorrng.TEXT.SB.16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="cjfwn96" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/view_article_detail"
+                style="@style/Foorrng.TEXT.EB.16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/article_title_detail"
+                android:textColor="@color/foorrng_orange_dark"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout_views" />
+
+            <ImageView
+                android:id="@+id/iv_article_detail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/view_article_detail" />
+
+            <TextView
+                android:id="@+id/view_article_location"
+                style="@style/Foorrng.TEXT.EB.16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/article_title_location"
+                android:textColor="@color/foorrng_orange_dark"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/iv_article_detail" />
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/layout_article_map"
+                android:name="com.naver.maps.map.MapFragment"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/view_article_location" />
+
+            <TextView
+                android:id="@+id/tv_article_address"
+                style="@style/Foorrng.TEXT.SB.18"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout_article_map"
+                tools:text="구미시 진평동 332 "/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</FrameLayout>

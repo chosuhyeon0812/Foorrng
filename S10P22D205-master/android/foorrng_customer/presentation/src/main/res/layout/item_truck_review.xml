@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="4dp"
+        android:paddingHorizontal="4dp">
+
+        <ImageView
+            android:id="@+id/iv_review_icon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            tools:src="@color/black"
+            android:layout_marginEnd="8dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_review_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="음식이 맛있어요"
+            android:textSize="12sp"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/tv_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/review_progress"
+            android:textSize="12sp"
+            tools:text="5개" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/pb_review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:progressDrawable="@drawable/bg_review_progressbar"
+        android:max="10"
+        tools:progress="5"
+        />
+
+
+
+</LinearLayout>

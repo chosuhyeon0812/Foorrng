@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FFFF0000</color>
+
+    <color name="foorrng_orange_bright">#FFE7BB</color>
+    <color name="foorrng_orange_light">#FFB576</color>
+    <color name="foorrng_orange">#FFB01F</color>
+    <color name="foorrng_orange_dark">#E57E25</color>
+
+    <color name="stroke_gray">#C4C4C4</color>
+    <color name="text_gray">#A4A4A4</color>
+
+    <color name="review_background">#D7FBCA</color>
+    <color name="review_progress">#59C227</color>
+
+    <color name="calendar_red">#F44336</color>
+    <color name="calendar_blue">#2196F3</color>
+
+</resources>

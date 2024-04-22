@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="10dp">
+
+    <ImageView
+        android:id="@+id/iv_review_emoji"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/tv_review_title"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintEnd_toStartOf="@id/tv_review_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tv_review_title"
+        tools:src="@drawable/img_delicious" />
+
+    <TextView
+        android:id="@+id/tv_review_title"
+        style="@style/Foorrng.TEXT.SB.14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/iv_review_emoji"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="음식이 맛있어요" />
+
+    <TextView
+        android:id="@+id/tv_review_count"
+        style="@style/Foorrng.TEXT.SB.14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_count_review"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="2dp"
+        android:textColor="@color/review_progress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="5개" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:max="5"
+        android:progress="2"
+        android:progressDrawable="@drawable/bg_review_progress"
+        app:layout_constraintTop_toBottomOf="@id/tv_review_count" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

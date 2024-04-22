@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/tv_title"
+                style="@style/Foorrng.TEXT.EB.22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="추가할 시간"
+                android:textColor="@color/foorrng_orange_dark"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_weekday"
+                style="@style/Foorrng.TEXT.SB.22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_title"
+                tool:text="월요일" />
+
+            <TextView
+                android:id="@+id/view_start_time"
+                style="@style/Foorrng.TEXT.SB.18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="시작시간"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_weekday" />
+
+            <NumberPicker
+                android:id="@+id/np_start_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:theme="@style/Foorrng.TimePicker"
+                app:layout_constraintEnd_toStartOf="@id/view_colon"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/view_start_time" />
+
+            <TextView
+                android:id="@+id/view_colon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:text=":"
+                android:theme="@style/Foorrng.TimePicker"
+                app:layout_constraintBottom_toBottomOf="@id/np_start_time"
+                app:layout_constraintEnd_toStartOf="@id/np_start_minute"
+                app:layout_constraintStart_toEndOf="@id/np_start_time"
+                app:layout_constraintTop_toTopOf="@id/np_start_time" />
+
+            <NumberPicker
+                android:id="@+id/np_start_minute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="40dp"
+                android:theme="@style/Foorrng.TimePicker"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/view_colon"
+                app:layout_constraintTop_toBottomOf="@id/view_start_time" />
+
+            <TextView
+                android:id="@+id/view_end_time"
+                style="@style/Foorrng.TEXT.SB.18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="종료시간"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/np_start_time" />
+
+            <NumberPicker
+                android:id="@+id/np_end_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:theme="@style/Foorrng.TimePicker"
+                app:layout_constraintEnd_toStartOf="@id/view_colon_end"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/view_end_time" />
+
+            <TextView
+                android:id="@+id/view_colon_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:text=":"
+                android:theme="@style/Foorrng.TimePicker"
+                app:layout_constraintBottom_toBottomOf="@id/np_end_time"
+                app:layout_constraintEnd_toStartOf="@id/np_end_minute"
+                app:layout_constraintStart_toEndOf="@id/np_end_time"
+                app:layout_constraintTop_toTopOf="@id/np_end_time" />
+
+            <NumberPicker
+                android:id="@+id/np_end_minute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="40dp"
+                android:theme="@style/Foorrng.TimePicker"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/view_colon_end"
+                app:layout_constraintTop_toBottomOf="@id/view_end_time" />
+
+            <TextView
+                android:id="@+id/tv_regist"
+                style="@style/Foorrng.TEXT.SB.18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="등록"
+                android:textColor="@color/foorrng_orange"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/np_end_minute" />
+
+            <TextView
+                android:id="@+id/tv_cancel"
+                style="@style/Foorrng.TEXT.SB.18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:text="취소"
+                android:textColor="@color/foorrng_orange"
+                app:layout_constraintBottom_toBottomOf="@id/tv_regist"
+                app:layout_constraintEnd_toStartOf="@id/tv_regist"
+                app:layout_constraintTop_toTopOf="@id/tv_regist" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="start"
+    android:orientation="vertical"
+    tools:context=".foodtruck.info.FoodtruckInfoTabFragment">
+
+    <TextView
+        style="@style/Foorrng.TEXT.EB.16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="@string/all_foodtruck_name"
+        android:textColor="@color/foorrng_orange_dark" />
+
+    <TextView
+        android:id="@+id/tv_truck_name"
+        style="@style/Foorrng.TEXT.SB.16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        tools:text="테스트테스트테스트123456789" />
+
+    <TextView
+        style="@style/Foorrng.TEXT.EB.16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="@string/all_busi_number"
+        android:textColor="@color/foorrng_orange_dark" />
+
+    <TextView
+        android:id="@+id/tv_business_number"
+        style="@style/Foorrng.TEXT.SB.16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        tools:text="테스트테스트테스트123456789" />
+
+    <TextView
+        style="@style/Foorrng.TEXT.EB.16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="@string/all_car_number"
+        android:textColor="@color/foorrng_orange_dark" />
+
+    <TextView
+        android:id="@+id/tv_car_number"
+        style="@style/Foorrng.TEXT.SB.16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        tools:text="테스트테스트테스트123456789" />
+
+    <TextView
+        style="@style/Foorrng.TEXT.EB.16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="@string/all_account_number"
+        android:textColor="@color/foorrng_orange_dark" />
+
+    <TextView
+        android:id="@+id/tv_account_number"
+        style="@style/Foorrng.TEXT.SB.16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        tools:text="테스트테스트테스트123456789" />
+
+    <TextView
+        style="@style/Foorrng.TEXT.EB.16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="@string/all_call_number"
+        android:textColor="@color/foorrng_orange_dark" />
+
+    <TextView
+        android:id="@+id/tv_call_number"
+        style="@style/Foorrng.TEXT.SB.16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        tools:text="테스트테스트테스트123456789" />
+
+    <TextView
+        style="@style/Foorrng.TEXT.EB.16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="@string/all_food_category"
+        android:textColor="@color/foorrng_orange_dark" />
+
+    <TextView
+        android:id="@+id/tv_food_category"
+        style="@style/Foorrng.TEXT.SB.16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        tools:text="테스트테스트테스트123456789" />
+
+    <TextView
+        style="@style/Foorrng.TEXT.EB.16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="@string/all_notice"
+        android:textColor="@color/foorrng_orange_dark" />
+
+    <TextView
+        android:id="@+id/tv_notice"
+        style="@style/Foorrng.TEXT.SB.16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_businumber_edittext"
+        android:padding="10dp"
+        tools:text="테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_menu_manage"
+        style="@style/Foorrng.Button"
+        android:text="@string/info_menu_manage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp" />
+</LinearLayout>

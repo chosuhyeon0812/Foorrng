@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".truck.info.TruckInfoFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:padding="20dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/civ_truck_img"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            tools:src="@drawable/logo_truck"
+            android:src="@drawable/logo_truck"
+            app:civ_circle_background_color="@color/foorrng_orange"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tbl_truck_info"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        app:tabBackground="@drawable/sl_tab_layout_selector"
+        app:tabSelectedTextColor="@color/white"
+        app:tabTextColor="@color/foorrng_orange_dark"
+        app:tabSelectedTextAppearance="@style/Foorrng.TEXT.SB.14"
+        app:tabTextAppearance="@style/Foorrng.TEXT.SB.14"
+        app:tabIndicatorHeight="0dp">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/basic_info"
+            />
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/managing_info"
+            />
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/review"
+            />
+
+    </com.google.android.material.tabs.TabLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/foorrng_orange_dark"
+        android:layout_marginBottom="4dp"/>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fcv_truck_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>

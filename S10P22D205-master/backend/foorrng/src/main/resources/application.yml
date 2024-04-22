@@ -1,0 +1,7 @@
+spring:
+  profiles:
+    include:
+      - secret
+jasypt:
+  encryptor:
+    bean: jasyptConfigScript

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fragment_home_map"
+        android:title="주변"
+        android:icon="@drawable/ic_location"/>
+
+<!--    <item-->
+<!--        android:id="@+id/fragment_festival"-->
+<!--        android:title="정보"-->
+<!--        android:icon="@drawable/ic_social"-->
+<!--        />-->
+    <item
+        android:id="@+id/fragment_favorite"
+        android:title="MY"
+        android:icon="@drawable/ic_favorite"/>
+
+</menu>
